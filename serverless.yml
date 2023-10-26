@@ -4,6 +4,10 @@ provider:
   runtime: python3.11
   region: us-east-2
 
+custom:
+  pythonRequirements:
+    dockerizePip: true
+
 package:
   individually: false
   exclude:
