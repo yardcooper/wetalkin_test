@@ -1,15 +1,14 @@
-service: wetalkin-python-lambda
-
+service: blog-github-actions
 provider:
   name: aws
-  runtime: python3.9
+  runtime: python3.7
   region: us-east-2
 
 package:
   individually: false
   exclude:
     - package.json
-    - package-lock.json
+    - package-log.json
     - node_modules/**
 
 functions:
