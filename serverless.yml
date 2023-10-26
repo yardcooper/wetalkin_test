@@ -1,7 +1,7 @@
 service: blog-github-actions
 provider:
   name: aws
-  runtime: python3.7
+  runtime: python3.11.2
   region: us-east-2
 
 package:
